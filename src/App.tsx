@@ -417,15 +417,15 @@ function App() {
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
-
   useEffect(() => {
+    refs.current = refs.current.filter((el) => el && el.isConnected);
     const obs = new IntersectionObserver(
       (es) => es.forEach((e) => { if (e.isIntersecting) e.target.classList.add('visible'); }),
       { threshold: 0.08 }
     );
     refs.current.forEach((el) => el && obs.observe(el));
     return () => obs.disconnect();
-  }, []);
+  }, [viewMode]);
 
   const rv = (el: HTMLElement | null) => {
     if (el && !refs.current.includes(el)) refs.current.push(el);
