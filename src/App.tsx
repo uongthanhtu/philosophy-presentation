@@ -444,6 +444,7 @@ function App() {
           <li><a href="#p6">Phân kỳ</a></li>
           <li><a href="#p9">Đặc điểm</a></li>
           <li><a href="#p11">Tổng kết</a></li>
+          <li><a href="#ai" style={{ color: 'var(--amber)' }}>Ghi nhận AI</a></li>
           <li><a href="#comic" style={{ color: 'var(--amber)', fontWeight: 'bold' }}>Truyện tranh</a></li>
         </ul>
       </header>
@@ -933,6 +934,44 @@ function App() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* ═══ GHI NHẬN SỬ DỤNG AI SECTION ═══ */}
+      <section id="ai" className="page" data-bg="AI" style={{ '--orb-x': '80%', '--orb-y': '70%', '--bg-x': '10%' } as React.CSSProperties}>
+        <div ref={rv} className="rv">
+          <p className="page-label">Công nghệ hỗ trợ</p>
+          <h2 className="page-title">Ghi nhận Sử dụng công nghệ AI</h2>
+          <p className="page-lead">
+            Trang này ghi nhận các hạng mục AI đã được sử dụng hỗ trợ trong đề tài. Toàn bộ nội dung học thuật cuối cùng đều do nhóm sinh viên kiểm tra, biên tập và chịu trách nhiệm.
+          </p>
+        </div>
+
+        <div ref={rv} className="rv split">
+          <div className="split-panel">
+            <h3>01. Hỗ trợ xây dựng Tài liệu & Code</h3>
+            <ul className="bullet-list">
+              <li><strong>Mục đích:</strong> Tạo bản nháp cấu trúc tài liệu và khung giao diện Web để nhóm triển khai nhanh.</li>
+              <li><strong>Prompt chính:</strong> Đề xuất bố cục nội dung học thuyết và code giao diện trình chiếu React có hiệu ứng 3D.</li>
+              <li><strong>Kiểm chứng:</strong> Nhóm đã rà soát lại toàn bộ mã nguồn, chuẩn hóa câu chữ theo giáo trình Lý luận chính trị và kiểm tra tính chính xác của bài học.</li>
+            </ul>
+          </div>
+          
+          <div className="split-panel">
+            <h3>02. Gợi ý & Sinh ảnh minh họa</h3>
+            <ul className="bullet-list">
+              <li><strong>Mục đích:</strong> Gợi ý bối cảnh và sinh hình ảnh phác thảo chì minh họa cho các câu chuyện triết lý.</li>
+              <li><strong>Prompt chính:</strong> Vẽ phác thảo chì đen trắng phong cảnh làng quê, thợ rèn, và con người Việt Nam.</li>
+              <li><strong>Kiểm chứng:</strong> Nhóm tự chọn lọc, chỉnh sửa kích thước, tối ưu hóa định dạng WebP để đảm bảo tính thẩm mỹ, nhất quán và nội dung học thuật phù hợp.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div ref={rv} className="rv quote" style={{ marginTop: '40px' }}>
+          <blockquote>
+            <strong>Cam kết học thuật:</strong> AI chỉ đóng vai trò trợ lý hỗ trợ xây dựng giao diện và gợi ý tư liệu. 
+            Chúng tôi không để AI làm thay hoàn toàn và chịu trách nhiệm cao nhất về tính chính xác, hợp lệ của sản phẩm thuyết trình cuối cùng.
+          </blockquote>
         </div>
       </section>
 
