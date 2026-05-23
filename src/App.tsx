@@ -9,7 +9,7 @@ const storiesData = [
     pages: [
       {
         page: 0,
-        image: "/images/comic/rice_cover.png",
+        image: "/images/comic/rice_cover.webp",
         narration: "Bấm nút 'Sau' hoặc 'Tự động đọc' để bắt đầu mở quyển truyện tranh triết lý về cuộc sống của hai ông cháu bé Nam.",
         dialogs: [
           { speaker: "Lời mở đầu", text: "Chào mừng bạn đến với câu chuyện 'Hành trình của hạt lúa' - góc nhìn trực quan về quy luật Phủ định của Phủ định qua nét vẽ phác thảo chì.", align: "left" }
@@ -17,7 +17,7 @@ const storiesData = [
       },
       {
         page: 1,
-        image: "/images/comic/rice_page_1.png",
+        image: "/images/comic/rice_page_1.webp",
         narration: "Kỳ nghỉ hè năm ấy, Nam về quê với ông ngoại sau một kỳ thi không như ý ở trường. Cậu đứng bên hiên nhà gỗ nhìn ông tỉ mẩn lựa chọn từng hạt giống thóc mẩy nhất.",
         dialogs: [
           { speaker: "Nam", text: "Ông ơi, hạt thóc này đẹp thế sao mình lại ném nó xuống bùn đất bẩn hả ông?", align: "left" },
@@ -26,7 +26,7 @@ const storiesData = [
       },
       {
         page: 2,
-        image: "/images/comic/rice_page_2.png",
+        image: "/images/comic/rice_page_2.webp",
         narration: "Hạt lúa chìm sâu dưới lớp bùn đất đen ẩm ướt. Vỏ hạt lúa nứt toác, tự phân hủy dần để nhường chất dinh dưỡng cho mầm non bé nhỏ vươn ra tìm sự sống.",
         dialogs: [
           { speaker: "Ông ngoại", text: "Để tái sinh thành cây lúa mới, hạt thóc cũ phải tự phủ định chính hình hài cũ của mình trong lòng đất tối.", align: "right" }
@@ -34,7 +34,7 @@ const storiesData = [
       },
       {
         page: 3,
-        image: "/images/comic/rice_page_3.png",
+        image: "/images/comic/rice_page_3.webp",
         narration: "Phủ định lần thứ nhất: Cây mạ non xanh mướt kiêu hãnh vươn mình ra khỏi mặt nước ruộng đón ánh nắng ban mai rực rỡ.",
         dialogs: [
           { speaker: "Nam (vui mừng)", text: "Ông ơi nhìn kìa! Hạt thóc đã hoàn toàn biến mất rồi, nhưng một cây non xanh mát đã vươn lên đón nắng!", align: "left" }
@@ -42,7 +42,7 @@ const storiesData = [
       },
       {
         page: 4,
-        image: "/images/comic/rice_page_4.png",
+        image: "/images/comic/rice_page_4.webp",
         narration: "Bầu trời nổi bão giông dữ dội, mưa tuôn gió rít làm cây lúa non oằn mình chống đỡ nghiêng ngả. Nhưng rễ lúa dưới bùn sâu lại bám chặt hơn bao giờ hết.",
         dialogs: [
           { speaker: "Nam (lo lắng)", text: "Gió to quá ông ơi! Cây lúa non yếu ớt thế kia liệu có bị bão quật gãy không ông?", align: "left" },
@@ -51,7 +51,7 @@ const storiesData = [
       },
       {
         page: 5,
-        image: "/images/comic/rice_page_5.png",
+        image: "/images/comic/rice_page_5.webp",
         narration: "Giông bão qua đi, bầu trời trong xanh xuất hiện cầu vồng nhạt. Cây lúa đứng thẳng vững chãi, bắt đầu trổ những nhành hoa lúa đầu tiên và ngậm dòng sữa thơm ngọt mát.",
         dialogs: [
           { speaker: "Ông ngoại", text: "Mỗi khó khăn qua đi đều để lại bài học nuôi dưỡng sự trưởng thành. Cây lúa nay đã mạnh mẽ hơn rất nhiều.", align: "right" }
@@ -59,7 +59,7 @@ const storiesData = [
       },
       {
         page: 6,
-        image: "/images/comic/rice_page_6.png",
+        image: "/images/comic/rice_page_6.webp",
         narration: "Phủ định lần hai: Cánh đồng chín vàng rực rỡ dập dờn trong nắng thu. Thân cây lúa xanh hôm nào giờ đã héo úa, dâng toàn bộ sự sống cho bông lúa nặng trĩu hạt.",
         dialogs: [
           { speaker: "Nam", text: "Cây lúa xanh mướt hôm nào giờ đã ngả vàng úa rồi ông ạ. Nhưng bông lúa của nó lại đẹp quá, cong xuống gieo mình.", align: "left" }
@@ -67,7 +67,7 @@ const storiesData = [
       },
       {
         page: 7,
-        image: "/images/comic/rice_page_7.png",
+        image: "/images/comic/rice_page_7.webp",
         narration: "Ông cháu vui mừng khom lưng gặt bông lúa chín vàng óng dẻo thơm. Sự phủ định của phủ định không hủy diệt sạch trơn cái cũ, mà kế thừa và phát triển nó lên tầm cao mới.",
         dialogs: [
           { speaker: "Ông ngoại", text: "Con thấy không, chỉ một hạt lúa gieo xuống bùn ban đầu, nay đã mang về cho ta cả hàng trăm hạt thóc mới trĩu tay.", align: "right" }
@@ -75,7 +75,7 @@ const storiesData = [
       },
       {
         page: 8,
-        image: "/images/comic/rice_page_8.png",
+        image: "/images/comic/rice_page_8.webp",
         narration: "Nam ôm những hạt thóc vàng óng, mẩy chắc và thơm ngào ngạt hương lúa mới của làng quê Việt Nam.",
         dialogs: [
           { speaker: "Nam (kinh ngạc)", text: "Thì ra hạt thóc mới này vừa giống hạt thóc cũ ban đầu, nhưng lại tốt hơn, thơm hơn và nhiều hạt hơn rất nhiều!", align: "left" }
@@ -83,7 +83,7 @@ const storiesData = [
       },
       {
         page: 9,
-        image: "/images/comic/rice_page_9.png",
+        image: "/images/comic/rice_page_9.webp",
         narration: "Nam ngồi ngắm hạt lúa dưới bóng cây đa cổ thụ đầu làng. Cậu bé khẽ mỉm cười tự tin, nhận ra bài học sâu sắc cho những thất bại điểm kém vừa qua của mình.",
         dialogs: [
           { speaker: "Nam (tự nhủ)", text: "Mình hiểu rồi! Những thất bại hôm nay chỉ là lớp bùn tối giúp mình tự nhìn nhận lại và tích lũy sức mạnh để ngày mai trưởng thành hơn.", align: "left" }
@@ -91,7 +91,7 @@ const storiesData = [
       },
       {
         page: 10,
-        image: "/images/comic/rice_page_10.png",
+        image: "/images/comic/rice_page_10.webp",
         narration: "Hai ông cháu vui vẻ gánh lúa về nhà trên con đường làng quanh co rợp bóng tre. Hoàng hôn buông xuống làng quê thanh bình, khói bếp bay lên ấm áp.",
         dialogs: [
           { speaker: "Ông ngoại", text: "Đường đời cũng giống như con đường làng quanh co này vậy con ạ. Dù có uốn khúc và giông bão, chỉ cần kiên trì, ta sẽ gặt hái quả ngọt.", align: "right" }
@@ -105,7 +105,7 @@ const storiesData = [
     pages: [
       {
         page: 0,
-        image: "/images/comic/iron_cover.png",
+        image: "/images/comic/iron_cover.webp",
         narration: "Chuyện về bài học rèn thép và quy luật tích lũy lượng - chất của người thợ rèn làng Đa Sỹ.",
         dialogs: [
           { speaker: "Lời mở đầu", text: "Muốn rèn thép tốt, đừng vội vàng đập búa khi lửa chưa đủ đỏ. Hãy cùng xem câu chuyện rèn thép của Tùng và chú Cường.", align: "left" }
@@ -113,7 +113,7 @@ const storiesData = [
       },
       {
         page: 1,
-        image: "/images/comic/iron_page_1.png",
+        image: "/images/comic/iron_page_1.webp",
         narration: "Tùng mới học nghề, muốn nhanh chóng rèn ra một chiếc lưỡi cày sắc bén. Cậu dùng hết sức quai búa vào thanh sắt nguội đen xám.",
         dialogs: [
           { speaker: "Tùng", text: "Tại sao cháu đập mạnh thế này mà thanh sắt chẳng hề cong đi chút nào hả chú?", align: "left" },
@@ -122,7 +122,7 @@ const storiesData = [
       },
       {
         page: 2,
-        image: "/images/comic/iron_page_2.png",
+        image: "/images/comic/iron_page_2.webp",
         narration: "Chú Cường kiên nhẫn dạy Tùng cách nhóm lò và thổi lửa. Nhiệt lượng bắt đầu tích lũy dần vào thanh sắt khi lò bùng lên.",
         dialogs: [
           { speaker: "Chú Cường", text: "Sự thay đổi không diễn ra ngay lập tức. Sắt cần thời gian hấp thụ nhiệt độ trong lò hồng.", align: "right" }
@@ -130,7 +130,7 @@ const storiesData = [
       },
       {
         page: 3,
-        image: "/images/comic/iron_page_3.png",
+        image: "/images/comic/iron_page_3.webp",
         narration: "Dưới sức nóng liên tục, nhiệt độ của thanh sắt tăng dần (sự tích lũy về Lượng), bắt đầu chuyển sang đỏ thẫm rồi đỏ tươi.",
         dialogs: [
           { speaker: "Tùng", text: "Nó đỏ rực lên rồi chú ơi! Cháu đem ra đập được chưa ạ?", align: "left" },
@@ -139,7 +139,7 @@ const storiesData = [
       },
       {
         page: 4,
-        image: "/images/comic/iron_page_4.png",
+        image: "/images/comic/iron_page_4.webp",
         narration: "Khi nhiệt độ đạt tới điểm nút (Chất đổi), thanh sắt cứng đầu ban đầu giờ đã trở nên mềm dẻo, dễ uốn nắn dưới nhịp búa của chú Cường.",
         dialogs: [
           { speaker: "Chú Cường", text: "Khi lửa đủ độ, chất của sắt đã thay đổi. Giờ đập một búa bằng mười búa khi sắt nguội!", align: "right" }
@@ -147,7 +147,7 @@ const storiesData = [
       },
       {
         page: 5,
-        image: "/images/comic/iron_page_5.png",
+        image: "/images/comic/iron_page_5.webp",
         narration: "Tùng hăng say đập từng nhát búa nhịp nhàng. Mỗi nhát búa đập xuống là một lượng lực tích lũy để tạo nên hình dáng hoàn hảo của chiếc lưỡi cày.",
         dialogs: [
           { speaker: "Tùng", text: "Cháu hiểu rồi! Phải gõ từng búa một, tích lũy lực đều đặn thì sắt mới thành hình đẹp được.", align: "left" }
@@ -155,7 +155,7 @@ const storiesData = [
       },
       {
         page: 6,
-        image: "/images/comic/iron_page_6.png",
+        image: "/images/comic/iron_page_6.webp",
         narration: "Hạ nhiệt đột ngột (phủ định bước nhảy) làm thay đổi hoàn toàn cấu trúc bên trong của sắt cứng, tôi luyện thành thép vô cùng bền bỉ.",
         dialogs: [
           { speaker: "Chú Cường", text: "Đây là bước nhảy quyết định để sắt hóa thành thép sắc bén. Tôi thép cần sự dứt khoát!", align: "right" }
@@ -163,7 +163,7 @@ const storiesData = [
       },
       {
         page: 7,
-        image: "/images/comic/iron_page_7.png",
+        image: "/images/comic/iron_page_7.webp",
         narration: "Thanh sắt thô ráp ban đầu qua lò lửa và hàng ngàn nhịp búa giờ đã biến thành một sản phẩm thép chất lượng cao, bóng loáng.",
         dialogs: [
           { speaker: "Tùng", text: "Thật kỳ diệu! Thanh sắt xù xì nay đã hóa thành chiếc lưỡi cày thép cứng cáp, sắc lẹm rồi!", align: "left" }
@@ -171,7 +171,7 @@ const storiesData = [
       },
       {
         page: 8,
-        image: "/images/comic/iron_page_8.png",
+        image: "/images/comic/iron_page_8.webp",
         narration: "Lắp thử lưỡi cày vào máy, lưỡi cày lướt phăng phăng xới đất cứng. Chất mới của thép tạo ra năng lực thực tiễn mới nâng hiệu suất vượt trội.",
         dialogs: [
           { speaker: "Bác nông dân", text: "Lưỡi cày tốt quá cháu ơi! Đất cứng thế này mà cày nhẹ như không!", align: "left" }
@@ -179,7 +179,7 @@ const storiesData = [
       },
       {
         page: 9,
-        image: "/images/comic/iron_page_9.png",
+        image: "/images/comic/iron_page_9.webp",
         narration: "Tùng đứng nhìn chiếc lưỡi cày làm việc, cậu bé nhận ra sự kiên trì tích lũy kiến thức từng ngày cũng giống như nung lửa và quai búa.",
         dialogs: [
           { speaker: "Tùng", text: "Hóa ra sự học cũng vậy. Phải tích lũy kiến thức qua từng ngày (Lượng), thì mới mong có ngày đỗ đạt làm nên nghiệp lớn (Chất).", align: "left" }
@@ -187,7 +187,7 @@ const storiesData = [
       },
       {
         page: 10,
-        image: "/images/comic/iron_page_10.png",
+        image: "/images/comic/iron_page_10.webp",
         narration: "Hai chú cháu vui vẻ ra về. Quy luật Lượng - Chất nhắc nhở chúng ta tránh nôn nóng đốt cháy giai đoạn nhưng cũng không được bảo thủ, trì trệ khi thời cơ đã đến.",
         dialogs: [
           { speaker: "Chú Cường", text: "Cứ kiên trì tích lũy lực lượng và kiến thức, cháu sẽ sớm trở thành người thợ rèn giỏi nhất làng này!", align: "right" }
@@ -201,7 +201,7 @@ const storiesData = [
     pages: [
       {
         page: 0,
-        image: "/images/comic/village_cover.png",
+        image: "/images/comic/village_cover.webp",
         narration: "Câu chuyện về sự giao thoa, đấu tranh giữa cái mới hiện đại và thói quen cũ bảo thủ tại một làng quê Bắc Bộ đang chuyển dịch kinh tế.",
         dialogs: [
           { speaker: "Lời mở đầu", text: "Thời kỳ quá độ giống như ngôi làng này vậy: Cái mới đang vươn lên nhưng dấu vết cũ vẫn còn hiện hữu bên thềm cũ. Hãy xem câu chuyện của An và cụ Lịch.", align: "left" }
@@ -209,7 +209,7 @@ const storiesData = [
       },
       {
         page: 1,
-        image: "/images/comic/village_page_1.png",
+        image: "/images/comic/village_page_1.webp",
         narration: "An mang dự án nông nghiệp công nghệ cao về xã, muốn gộp ruộng đất nhỏ lẻ để sản xuất lớn. Cụ Lịch tỏ ra e ngại, muốn giữ mảnh ruộng tổ tiên.",
         dialogs: [
           { speaker: "An", text: "Nếu chúng ta gộp ruộng đất, áp dụng cơ giới hóa chung, năng suất sẽ tăng gấp 3 lần bà con ạ!", align: "left" },
@@ -218,7 +218,7 @@ const storiesData = [
       },
       {
         page: 2,
-        image: "/images/comic/village_page_2.png",
+        image: "/images/comic/village_page_2.webp",
         narration: "Thói quen tư hữu, tự cấp tự túc từ ngàn đời đã ăn sâu vào tâm thức người nông dân cũ khiến cụ Lịch sợ mất đi mảnh đất cha ông.",
         dialogs: [
           { speaker: "Cụ Lịch", text: "Đất của cha ông bao năm nay nuôi sống cả nhà, giờ giao ra làm chung thấy xót ruột quá.", align: "right" }
@@ -226,7 +226,7 @@ const storiesData = [
       },
       {
         page: 3,
-        image: "/images/comic/village_page_3.png",
+        image: "/images/comic/village_page_3.webp",
         narration: "Thời kỳ quá độ luôn tồn tại sự đan xen giữa hiện đại và thô sơ. Máy cày hiện đại đã chạy bên cạnh khoảnh vườn cuốc tay cũ kỹ của cụ Lịch.",
         dialogs: [
           { speaker: "An", text: "Cụ ơi, để máy cày xới nốt khoảnh vườn này cho cụ nhé, đỡ tốn sức cuốc tay mệt nhọc lắm cụ.", align: "left" },
@@ -235,7 +235,7 @@ const storiesData = [
       },
       {
         page: 4,
-        image: "/images/comic/village_page_4.png",
+        image: "/images/comic/village_page_4.webp",
         narration: "Sâu bệnh tấn công bất ngờ. Ruộng cụ Lịch phun thuốc thủ công bị úa vàng, còn ruộng HTX áp dụng flycam phun thuốc sinh học vẫn xanh tốt.",
         dialogs: [
           { speaker: "Cụ Lịch", text: "Tôi đã phun thuốc ba lần rồi mà lúa vẫn rũ xuống thế này, dịch hại đáng sợ quá!", align: "right" }
@@ -243,7 +243,7 @@ const storiesData = [
       },
       {
         page: 5,
-        image: "/images/comic/village_page_5.png",
+        image: "/images/comic/village_page_5.webp",
         narration: "Muốn cải tạo cái cũ, không thể cưỡng ép mà phải thuyết phục bằng khoa học. An mang thuốc sinh học đến tận ruộng hướng dẫn cụ Lịch chữa sâu hại.",
         dialogs: [
           { speaker: "An", text: "Đây là loại rầy mới kháng thuốc hóa học thông thường cụ ạ. Cụ dùng thử loại sinh học này xem hiệu quả thế nào nhé.", align: "left" }
@@ -251,7 +251,7 @@ const storiesData = [
       },
       {
         page: 6,
-        image: "/images/comic/village_page_6.png",
+        image: "/images/comic/village_page_6.webp",
         narration: "Cánh đồng HTX của An bội thu, từng gánh lúa vàng trĩu hạt được chở về kho. Ruộng cụ Lịch nhờ An giúp đỡ cũng vớt vát được một phần mùa vụ.",
         dialogs: [
           { speaker: "Cụ Lịch", text: "Lúa bên Hợp tác xã hạt nào hạt nấy chắc nịch, thu hoạch lại nhanh gọn bằng máy gặt đập.", align: "right" }
@@ -259,7 +259,7 @@ const storiesData = [
       },
       {
         page: 7,
-        image: "/images/comic/village_page_7.png",
+        image: "/images/comic/village_page_7.webp",
         narration: "Sự biến đổi về tinh thần diễn ra chậm chạp hơn kinh tế, nhưng sự chân thành và hiệu quả đã bắt đầu lay chuyển tư duy cũ của cụ Lịch.",
         dialogs: [
           { speaker: "Cụ Lịch", text: "Các cháu vất vả quá, uống bát chè xanh cho mát. Vụ sau... cho tôi đăng ký tham gia Hợp tác xã với nhé!", align: "right" }
@@ -267,7 +267,7 @@ const storiesData = [
       },
       {
         page: 8,
-        image: "/images/comic/village_page_8.png",
+        image: "/images/comic/village_page_8.webp",
         narration: "Cụ Lịch ký tên gia nhập HTX. Sự chiến thắng của cái mới đối với tàn dư cũ là hành trình kiên trì thuyết phục, cải biến tự giác.",
         dialogs: [
           { speaker: "Cụ Lịch", text: "Tôi hiểu rồi, muốn giàu có thì phải đi chung đường lớn, ôm khư khư mảnh ruộng nhỏ không phát triển nổi.", align: "right" }
@@ -275,7 +275,7 @@ const storiesData = [
       },
       {
         page: 9,
-        image: "/images/comic/village_page_9.png",
+        image: "/images/comic/village_page_9.webp",
         narration: "Ngôi làng quá độ đang lột xác từng ngày. Cái cũ lạc hậu lùi bước nhường chỗ cho cái mới khoa học, đoàn kết vươn lên vững chắc.",
         dialogs: [
           { speaker: "An", text: "Cảm ơn cụ đã tin tưởng tụi cháu. Chúng ta sẽ cùng nhau xây dựng quê hương trù phú hơn.", align: "left" }
@@ -283,7 +283,7 @@ const storiesData = [
       },
       {
         page: 10,
-        image: "/images/comic/village_page_10.png",
+        image: "/images/comic/village_page_10.webp",
         narration: "Bản chất của thời kỳ quá độ là cuộc đấu tranh gay gắt nhưng tất thắng của nhân tố xã hội chủ nghĩa mới trước tàn dư lạc hậu.",
         dialogs: [
           { speaker: "Cụ Lịch", text: "Làng mình giờ thay da đổi thịt thật rồi cháu ạ, ánh sáng mới đã về gõ cửa từng nhà.", align: "right" }
@@ -297,7 +297,7 @@ const storiesData = [
     pages: [
       {
         page: 0,
-        image: "/images/comic/mountain_cover.png",
+        image: "/images/comic/mountain_cover.webp",
         narration: "Câu chuyện vượt núi mở đường Trường Sơn cứu trợ và bài học về con đường quá độ gián tiếp đầy quanh co lên Chủ nghĩa xã hội.",
         dialogs: [
           { speaker: "Lời mở đầu", text: "Để đến được đích, đôi khi ta không thể đi thẳng qua vực sâu, mà phải mở đường tránh quanh co men theo vách núi. Hãy theo chân đội thanh niên xung phong của Hùng và Liên.", align: "left" }
@@ -305,7 +305,7 @@ const storiesData = [
       },
       {
         page: 1,
-        image: "/images/comic/mountain_page_1.png",
+        image: "/images/comic/mountain_page_1.webp",
         narration: "Đội thanh niên xung phong nhận nhiệm vụ mở đường vận chuyển lương thực cứu trợ bà con vùng lũ quét bị cô lập sau núi Trường Sơn.",
         dialogs: [
           { speaker: "Hùng", text: "Nhiệm vụ vô cùng khẩn cấp, chúng ta phải mở được con đường đưa xe cứu trợ qua dãy núi này nhanh nhất!", align: "left" }
@@ -313,7 +313,7 @@ const storiesData = [
       },
       {
         page: 2,
-        image: "/images/comic/mountain_page_2.png",
+        image: "/images/comic/mountain_page_2.webp",
         narration: "Họ đi đến điểm đầu tuyến đường thì phát hiện một vực sâu khổng lồ chia cắt địa hình. Đi thẳng theo đường chim bay là bất khả thi.",
         dialogs: [
           { speaker: "Liên", text: "Vực sâu thế này thì làm sao xe tải qua được anh Hùng ơi? Chúng ta không thể đi thẳng được rồi!", align: "left" }
@@ -321,7 +321,7 @@ const storiesData = [
       },
       {
         page: 3,
-        image: "/images/comic/mountain_page_3.png",
+        image: "/images/comic/mountain_page_3.webp",
         narration: "Những nước nghèo đi lên CNXH giống như gặp vực sâu lớn (thiếu LLSX phát triển). Đi thẳng sẽ thất bại, bắt buộc phải tìm đường vòng (gián tiếp).",
         dialogs: [
           { speaker: "Hùng", text: "Chúng ta không thể nhảy qua vực. Phải mở đường vòng men theo vách núi đá bên kia, tuy xa và quanh co nhưng xe mới đi an toàn được.", align: "left" }
@@ -329,7 +329,7 @@ const storiesData = [
       },
       {
         page: 4,
-        image: "/images/comic/mountain_page_4.png",
+        image: "/images/comic/mountain_page_4.webp",
         narration: "Bắt đầu hành trình đầy gian khổ của con đường vòng gián tiếp. Mỗi tấc đường mở ra trên vách đá đứng đòi hỏi nỗ lực phi thường.",
         dialogs: [
           { speaker: "Liên", text: "Con đường này quanh co quá anh Hùng ạ, đi thế này vừa mất sức vừa lâu hơn đường thẳng nhiều.", align: "left" },
@@ -338,7 +338,7 @@ const storiesData = [
       },
       {
         page: 5,
-        image: "/images/comic/mountain_page_5.png",
+        image: "/images/comic/mountain_page_5.webp",
         narration: "Trời đổ mưa rừng sạt lở dữ dội, xe chở đá bị sa lầy nhão nhoét. Đây chính là những khó khăn, bước lùi tạm thời thường thấy của thời kỳ quá độ.",
         dialogs: [
           { speaker: "Liên", text: "Mưa gió sạt lở thế này, liệu con đường vòng của chúng ta có đi đến đích được không anh?", align: "left" },
@@ -347,7 +347,7 @@ const storiesData = [
       },
       {
         page: 6,
-        image: "/images/comic/mountain_page_6.png",
+        image: "/images/comic/mountain_page_6.webp",
         narration: "Cả đội chặt tre gỗ kết cầu treo tạm thời vượt suối lớn. Đây là giải pháp trung gian, bước quá độ tạm thời để nối liền tiến trình phát triển.",
         dialogs: [
           { speaker: "Hùng", text: "Chiếc cầu tre này là bước đệm trung gian. Có nó, xe ta mới đi qua được suối dữ để sang sườn núi bên kia.", align: "left" }
@@ -355,7 +355,7 @@ const storiesData = [
       },
       {
         page: 7,
-        image: "/images/comic/mountain_page_7.png",
+        image: "/images/comic/mountain_page_7.webp",
         narration: "Nhờ các bước trung gian gián tiếp vững chắc, đoàn xe chở nặng đã vượt qua suối dữ an toàn, bắt đầu tiến sâu vào cung đường vòng.",
         dialogs: [
           { speaker: "Liên", text: "A! Xe qua được rồi! Con đường tránh của anh trông uốn lượn nhưng thực sự hoạt động tốt!", align: "left" }
@@ -363,7 +363,7 @@ const storiesData = [
       },
       {
         page: 8,
-        image: "/images/comic/mountain_page_8.png",
+        image: "/images/comic/mountain_page_8.webp",
         narration: "Đoàn xe vượt qua khúc cua cuối cùng, hiện ra thung lũng bản làng yên bình nơi bà con đang đứng mong ngóng đoàn xe cứu trợ.",
         dialogs: [
           { speaker: "Bà con vùng lũ", text: "Xe cứu trợ tới rồi! Cảm ơn các cô chú thanh niên xung phong nhiều lắm!", align: "left" }
@@ -371,7 +371,7 @@ const storiesData = [
       },
       {
         page: 9,
-        image: "/images/comic/mountain_page_9.png",
+        image: "/images/comic/mountain_page_9.webp",
         narration: "Lương thực được bàn giao cho đồng bào. Liên nhận ra đi vòng, đi gián tiếp qua những bước trung gian lại là con đường ngắn nhất và duy nhất.",
         dialogs: [
           { speaker: "Liên", text: "Bây giờ em đã hiểu rồi. Đôi khi đi vòng qua những bước trung gian lại là cách duy nhất để đến đích thành công.", align: "left" }
@@ -379,7 +379,7 @@ const storiesData = [
       },
       {
         page: 10,
-        image: "/images/comic/mountain_page_10.png",
+        image: "/images/comic/mountain_page_10.webp",
         narration: "Mỗi quốc gia cần tự tìm ra con đường đi phù hợp với điều kiện lịch sử của riêng mình để tiến lên xây dựng xã hội mới vững bền.",
         dialogs: [
           { speaker: "Hùng", text: "Hành trình vạn dặm nào cũng bắt đầu từ những tấc đường nhỏ gian khó. Chúng ta đã mở đường thành công!", align: "left" }
@@ -395,6 +395,7 @@ function App() {
   const [storyIndex, setStoryIndex] = useState(0);
   const [comicPage, setComicPage] = useState(0);
   const [autoplay, setAutoplay] = useState(false);
+  const [viewMode, setViewMode] = useState<'shelf' | 'reading'>('shelf');
 
   useEffect(() => {
     let interval: any = null;
@@ -941,127 +942,154 @@ function App() {
           <p className="page-label">Tuyển tập truyện tranh triết lý</p>
           <h2 className="page-title">Tranh Vẽ Triết Lý Cuộc Sống</h2>
           <p className="page-lead">
-            Hãy chọn một câu chuyện dưới đây để khám phá các quy luật biện chứng duy vật 
-            qua các sự vật, hiện tượng gần gũi trong đời sống người Việt.
+            Khám phá các quy luật biện chứng duy vật và các phạm trù triết lý qua tuyển tập truyện tranh vẽ chì mộc mạc bối cảnh Việt Nam.
           </p>
+        </div>
 
-          {/* Bộ chọn câu chuyện (Tabs) */}
-          <div className="comic-tabs-container">
+        {viewMode === 'shelf' ? (
+          <div ref={rv} className="rv bookshelf-grid">
             {storiesData.map((story, index) => (
-              <button 
+              <div 
                 key={story.id} 
-                className={`comic-tab-btn ${storyIndex === index ? 'active' : ''}`}
+                className="book-card"
                 onClick={() => {
                   setStoryIndex(index);
                   setComicPage(0);
                   setAutoplay(false);
+                  setViewMode('reading');
                 }}
               >
-                {story.title.split(" (")[0]}
-              </button>
+                <div className="book-card-cover-container">
+                  <img src={story.pages[0].image} alt={story.title} className="book-card-cover" />
+                  <div className="book-card-hover-overlay">
+                    <span className="read-now-btn">Đọc Truyện 📖</span>
+                  </div>
+                </div>
+                <div className="book-card-info">
+                  <h3>{story.title.split(" (")[0]}</h3>
+                  <p className="book-card-theme">
+                    {story.title.includes(" (") 
+                      ? story.title.substring(story.title.indexOf(" (") + 2, story.title.length - 1) 
+                      : ""}
+                  </p>
+                  <p className="book-card-desc">
+                    {story.pages[0].narration}
+                  </p>
+                </div>
+              </div>
             ))}
           </div>
-        </div>
+        ) : (
+          <div ref={rv} className="rv">
+            {/* Thanh tiêu đề đọc truyện & nút quay lại */}
+            <div className="reading-header">
+              <button className="back-to-shelf-btn" onClick={() => setViewMode('shelf')}>
+                ← Quay lại Tủ sách
+              </button>
+              <h3 className="reading-title">{storiesData[storyIndex].title}</h3>
+            </div>
 
-        <div ref={rv} className="rv comic-wrapper">
-          {/* Khung lật sách 3D */}
-          <div className="comic-frame-container">
-            <div className="book-3d">
-              {storiesData[storyIndex].pages.map((data, index) => {
-                let pageClass = "book-page-sheet";
-                if (index < comicPage) {
-                  pageClass += " flipped";
-                } else if (index === comicPage) {
-                  pageClass += " active";
-                } else {
-                  pageClass += " upcoming";
-                }
+            <div className="comic-wrapper">
+              {/* Khung lật sách 3D */}
+              <div className="comic-frame-container">
+                <div className="book-3d">
+                  {storiesData[storyIndex].pages.map((data, index) => {
+                    let pageClass = "book-page-sheet";
+                    if (index < comicPage) {
+                      pageClass += " flipped";
+                    } else if (index === comicPage) {
+                      pageClass += " active";
+                    } else {
+                      pageClass += " upcoming";
+                    }
 
-                return (
-                  <div 
-                    key={data.page} 
-                    className={pageClass}
-                    style={{ zIndex: storiesData[storyIndex].pages.length - index } as React.CSSProperties}
-                  >
-                    <span className="comic-badge">
-                      {index === 0 ? "Trang bìa" : `Trang ${index} / 10`}
-                    </span>
-                    <img 
-                      src={data.image} 
-                      alt={index === 0 ? "Bìa sách" : `Trang truyện ${index}`} 
-                    />
+                    return (
+                      <div 
+                        key={data.page} 
+                        className={pageClass}
+                        style={{ zIndex: storiesData[storyIndex].pages.length - index } as React.CSSProperties}
+                      >
+                        <span className="comic-badge">
+                          {index === 0 ? "Trang bìa" : `Trang ${index} / 10`}
+                        </span>
+                        <img 
+                          src={data.image} 
+                          alt={index === 0 ? "Bìa sách" : `Trang truyện ${index}`} 
+                        />
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* Dẫn truyện & Thoại */}
+              <div className="comic-info">
+                <div>
+                  <div className="comic-narration-box">
+                    {storiesData[storyIndex].pages[comicPage].narration}
                   </div>
-                );
-              })}
+                  
+                  <div className="dialog-bubbles">
+                    {storiesData[storyIndex].pages[comicPage].dialogs.map((dialog, index) => (
+                      <div key={index} className={`dialog-bubble ${dialog.align === 'right' ? 'right' : ''}`}>
+                        <div className="dialog-speaker">{dialog.speaker}</div>
+                        <div className="dialog-text">{dialog.text}</div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Điều khiển trang truyện */}
+                <div className="comic-control-bar">
+                  <div>
+                    <select 
+                      className="comic-page-select"
+                      value={comicPage}
+                      onChange={(e) => setComicPage(Number(e.target.value))}
+                    >
+                      {storiesData[storyIndex].pages.map((data) => (
+                        <option key={data.page} value={data.page}>
+                          {data.page === 0 ? "Trang bìa" : `Trang ${data.page}: ${data.narration.substring(0, 20)}...`}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  <div className="comic-buttons">
+                    <button 
+                      className={`comic-btn autoplay ${autoplay ? 'active' : ''}`}
+                      onClick={() => setAutoplay(!autoplay)}
+                    >
+                      {autoplay ? (
+                        <>
+                          <span>⏸</span> Dừng đọc
+                        </>
+                      ) : (
+                        <>
+                          <span>▶</span> Tự động đọc
+                        </>
+                      )}
+                    </button>
+                    <button 
+                      className="comic-btn"
+                      onClick={() => setComicPage((prev) => Math.max(0, prev - 1))}
+                      disabled={comicPage === 0}
+                    >
+                      ◀ Trước
+                    </button>
+                    <button 
+                      className="comic-btn"
+                      onClick={() => setComicPage((prev) => Math.min(10, prev + 1))}
+                      disabled={comicPage === 10}
+                    >
+                      Sau ▶
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-
-          {/* Dẫn truyện & Thoại */}
-          <div className="comic-info">
-            <div>
-              <div className="comic-narration-box">
-                {storiesData[storyIndex].pages[comicPage].narration}
-              </div>
-              
-              <div className="dialog-bubbles">
-                {storiesData[storyIndex].pages[comicPage].dialogs.map((dialog, index) => (
-                  <div key={index} className={`dialog-bubble ${dialog.align === 'right' ? 'right' : ''}`}>
-                    <div className="dialog-speaker">{dialog.speaker}</div>
-                    <div className="dialog-text">{dialog.text}</div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Điều khiển trang truyện */}
-            <div className="comic-control-bar">
-              <div>
-                <select 
-                  className="comic-page-select"
-                  value={comicPage}
-                  onChange={(e) => setComicPage(Number(e.target.value))}
-                >
-                  {storiesData[storyIndex].pages.map((data) => (
-                    <option key={data.page} value={data.page}>
-                      {data.page === 0 ? "Trang bìa" : `Trang ${data.page}: ${data.narration.substring(0, 20)}...`}
-                    </option>
-                  ))}
-                </select>
-              </div>
-
-              <div className="comic-buttons">
-                <button 
-                  className={`comic-btn autoplay ${autoplay ? 'active' : ''}`}
-                  onClick={() => setAutoplay(!autoplay)}
-                >
-                  {autoplay ? (
-                    <>
-                      <span>⏸</span> Dừng đọc
-                    </>
-                  ) : (
-                    <>
-                      <span>▶</span> Tự động đọc
-                    </>
-                  )}
-                </button>
-                <button 
-                  className="comic-btn"
-                  onClick={() => setComicPage((prev) => Math.max(0, prev - 1))}
-                  disabled={comicPage === 0}
-                >
-                  ◀ Trước
-                </button>
-                <button 
-                  className="comic-btn"
-                  onClick={() => setComicPage((prev) => Math.min(10, prev + 1))}
-                  disabled={comicPage === 10}
-                >
-                  Sau ▶
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
+        )}
       </section>
     </>
   );
