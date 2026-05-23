@@ -949,18 +949,18 @@ function App() {
 
         <div ref={rv} className="rv split">
           <div className="split-panel">
-            <h3>01. Hỗ trợ xây dựng Tài liệu & Code</h3>
+            <h3>01. Hỗ trợ biên soạn Tài liệu</h3>
             <ul className="bullet-list">
-              <li><strong>Mục đích:</strong> Tạo bản nháp cấu trúc tài liệu và khung giao diện Web để nhóm triển khai nhanh.</li>
-              <li><strong>Prompt chính:</strong> Đề xuất bố cục nội dung học thuyết và code giao diện trình chiếu React có hiệu ứng 3D.</li>
-              <li><strong>Kiểm chứng:</strong> Nhóm đã rà soát lại toàn bộ mã nguồn, chuẩn hóa câu chữ theo giáo trình Lý luận chính trị và kiểm tra tính chính xác của bài học.</li>
+              <li><strong>Mục đích:</strong> Tạo bản nháp cấu trúc tài liệu đề tài để nhóm triển khai nội dung nhanh và đầy đủ ý.</li>
+              <li><strong>Prompt chính:</strong> Đề xuất bố cục nội dung lý luận chính trị bám sát đề bài môn học, gồm phần mở đầu, nội dung và kết luận.</li>
+              <li><strong>Kiểm chứng:</strong> Nhóm đã tự rà soát toàn bộ văn bản, chuẩn hóa câu chữ theo đúng giáo trình, bổ sung lập luận và ví dụ thực tiễn tự viết.</li>
             </ul>
           </div>
           
           <div className="split-panel">
             <h3>02. Gợi ý & Sinh ảnh minh họa</h3>
             <ul className="bullet-list">
-              <li><strong>Mục đích:</strong> Gợi ý bối cảnh và sinh hình ảnh phác thảo chì minh họa cho các câu chuyện triết lý.</li>
+              <li><strong>Mục đích:</strong> Gợi ý bối cảnh và sinh hình ảnh phác thảo chì minh họa cho các câu chuyện triết lý thêm sinh động.</li>
               <li><strong>Prompt chính:</strong> Vẽ phác thảo chì đen trắng phong cảnh làng quê, thợ rèn, và con người Việt Nam.</li>
               <li><strong>Kiểm chứng:</strong> Nhóm tự chọn lọc, chỉnh sửa kích thước, tối ưu hóa định dạng WebP để đảm bảo tính thẩm mỹ, nhất quán và nội dung học thuật phù hợp.</li>
             </ul>
@@ -969,7 +969,7 @@ function App() {
 
         <div ref={rv} className="rv quote" style={{ marginTop: '40px' }}>
           <blockquote>
-            <strong>Cam kết học thuật:</strong> AI chỉ đóng vai trò trợ lý hỗ trợ xây dựng giao diện và gợi ý tư liệu. 
+            <strong>Cam kết học thuật:</strong> AI chỉ đóng vai trò trợ lý hỗ trợ phác thảo tài liệu và sinh ảnh minh họa. 
             Chúng tôi không để AI làm thay hoàn toàn và chịu trách nhiệm cao nhất về tính chính xác, hợp lệ của sản phẩm thuyết trình cuối cùng.
           </blockquote>
         </div>
