@@ -467,3 +467,316 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* ═══════════════════════════════════════════════════
+   COMIC BOOK SECTION (QUYỂN TRUYỆN TRANH TƯƠNG TÁC)
+   ═══════════════════════════════════════════════════ */
+.comic-section {
+  background: #fffefb;
+  border-top: 2px solid var(--border);
+}
+
+.comic-wrapper {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 48px;
+  align-items: center;
+  margin-top: 16px;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .comic-wrapper {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+.comic-frame-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  perspective: 1500px;
+  padding: 20px 0;
+}
+
+.book-3d {
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 4/3;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.book-page-sheet {
+  position: absolute;
+  inset: 0;
+  transform-origin: left center;
+  transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.6s ease-in-out;
+  backface-visibility: hidden;
+  background: #fff;
+  border: 12px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.06), 0 5px 15px rgba(0, 0, 0, 0.04);
+}
+
+.book-page-sheet img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Các trạng thái lật trang */
+.book-page-sheet.active {
+  transform: rotateY(0deg);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.book-page-sheet.flipped {
+  transform: rotateY(-140deg);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.book-page-sheet.upcoming {
+  transform: rotateY(0deg);
+  opacity: 1;
+  pointer-events: none;
+}
+
+.comic-badge {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: var(--navy);
+  color: #fff;
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 4px;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.comic-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 420px;
+  height: 100%;
+}
+
+.comic-narration-box {
+  background: rgba(0, 45, 83, 0.03);
+  border-left: 4px solid var(--amber);
+  padding: 20px 24px;
+  border-radius: 0 8px 8px 0;
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--navy);
+  line-height: 1.6;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+}
+
+.dialog-bubbles {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-grow: 1;
+}
+
+.dialog-bubble {
+  background: #ffffff;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 16px 20px;
+  max-width: 90%;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  align-self: flex-start;
+  animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.2) forwards;
+}
+
+@keyframes popIn {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.dialog-bubble::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 24px;
+  border-width: 10px 10px 0;
+  border-style: solid;
+  border-color: #ffffff transparent;
+  display: block;
+  width: 0;
+  z-index: 2;
+}
+
+.dialog-bubble::after {
+  content: "";
+  position: absolute;
+  bottom: -11px;
+  left: 23px;
+  border-width: 11px 11px 0;
+  border-style: solid;
+  border-color: var(--border) transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+}
+
+.dialog-bubble.right {
+  align-self: flex-end;
+  background: #fffbeb;
+  border-color: #fde68a;
+}
+
+.dialog-bubble.right::before {
+  left: auto;
+  right: 24px;
+  border-color: #fffbeb transparent;
+}
+
+.dialog-bubble.right::after {
+  left: auto;
+  right: 23px;
+  border-color: #fde68a transparent;
+}
+
+.dialog-speaker {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--amber);
+  margin-bottom: 4px;
+}
+
+.dialog-bubble.right .dialog-speaker {
+  color: #b45309;
+}
+
+.dialog-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+.comic-control-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--border);
+  padding-top: 24px;
+  margin-top: 24px;
+}
+
+.comic-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.comic-btn {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--navy);
+  padding: 8px 16px;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.comic-btn:hover:not(:disabled) {
+  background: var(--navy);
+  color: #fff;
+  border-color: var(--navy);
+}
+
+.comic-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.comic-btn.autoplay {
+  background: rgba(217, 119, 6, 0.05);
+  color: var(--amber);
+  border-color: rgba(217, 119, 6, 0.2);
+}
+
+.comic-btn.autoplay.active {
+  background: var(--amber);
+  color: #fff;
+  border-color: var(--amber);
+}
+
+.comic-page-select {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--navy);
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+.comic-page-select:focus {
+  border-color: var(--amber);
+}
+
+/* Bộ chọn câu chuyện (Tabs) */
+.comic-tabs-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  z-index: 10;
+  position: relative;
+}
+
+.comic-tab-btn {
+  background: #ffffff;
+  border: 1px solid var(--border);
+  color: var(--text-light);
+  padding: 10px 20px;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+}
+
+.comic-tab-btn:hover {
+  color: var(--navy);
+  border-color: var(--navy);
+  background: rgba(0, 45, 83, 0.02);
+}
+
+.comic-tab-btn.active {
+  background: var(--amber);
+  color: #ffffff;
+  border-color: var(--amber);
+  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.25);
+}
+
