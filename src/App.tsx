@@ -812,8 +812,8 @@ function App() {
             </p>
           </div>
           <figure className="header-img">
-            <img src="/images/transition-society.png" alt="Giao thoa giữa xã hội cũ và mới" />
-            <figcaption>Xã hội quá độ — giao thoa cũ và mới</figcaption>
+            <img src="/images/socialism-stains.png" alt="Bản chất giai đoạn đầu và vết chàm lịch sử" />
+            <figcaption>Bản chất giai đoạn đầu — Vết chàm lịch sử</figcaption>
           </figure>
         </div>
         <div ref={rv} className="rv matrix-3">
