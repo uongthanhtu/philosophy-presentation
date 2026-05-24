@@ -442,7 +442,7 @@ function App() {
           <li><a href="#p2">Cơ sở</a></li>
           <li><a href="#p4">Tất yếu</a></li>
           <li><a href="#p6">Phân kỳ</a></li>
-          <li><a href="#p9">Đặc điểm</a></li>
+          <li><a href="#p9">Bản chất</a></li>
           <li><a href="#p11">Tổng kết</a></li>
           <li><a href="#ai" style={{ color: 'var(--amber)' }}>Ghi nhận AI</a></li>
           <li><a href="#comic" style={{ color: 'var(--amber)', fontWeight: 'bold' }}>Truyện tranh</a></li>
@@ -802,92 +802,47 @@ function App() {
         </div>
       </section>
 
-      {/* ═══ 3-COLUMN MATRIX — Bản chất & Đặc điểm ═══ */}
+      {/* ═══ 3-COLUMN MATRIX — Bản chất & "Vết chàm" lịch sử ═══ */}
       <section id="p9" className="page" data-bg="09" style={{ '--orb-x': '70%', '--orb-y': '20%', '--bg-x': '6%' } as React.CSSProperties}>
         <div ref={rv} className="rv header-with-img">
           <div className="header-text">
-            <h2 className="page-title">Bản chất và Đặc điểm xã hội của Thời kỳ quá độ</h2>
+            <h2 className="page-title">Bản chất của Giai đoạn đầu và "Vết chàm" Lịch sử</h2>
+            <p className="page-lead">
+              Theo lý luận Mác–Lênin, Chủ nghĩa xã hội ở giai đoạn đầu không phải là một hình thái xuất hiện hoàn hảo ngay lập tức, mà bản chất của nó là một xã hội <span className="amber">"vừa thoát thai từ xã hội tư bản chủ nghĩa"</span>. Chính vì vừa bước ra từ lòng xã hội cũ, phương thức xã hội này tất yếu vẫn còn mang nặng những <span className="amber">"dấu vết"</span> hay còn gọi là <span className="amber">"vết chàm"</span> lịch sử trên mọi phương diện của đời sống:
+            </p>
           </div>
           <figure className="header-img">
             <img src="/images/transition-society.png" alt="Giao thoa giữa xã hội cũ và mới" />
             <figcaption>Xã hội quá độ — giao thoa cũ và mới</figcaption>
           </figure>
         </div>
-        <div ref={rv} className="rv quote">
-          <blockquote>
-            "…một xã hội cộng sản chủ nghĩa vừa thoát thai từ xã hội tư bản chủ nghĩa,
-            do đó về mọi phương diện — kinh tế, đạo đức, tinh thần — còn mang
-            <span className="amber"> những dấu vết của xã hội cũ</span> mà nó đã lọt lòng ra."
-          </blockquote>
-          <cite>— C. Mác và Ph. Ăngghen: Toàn tập, t.19, tr.47.</cite>
-        </div>
         <div ref={rv} className="rv matrix-3">
           <div className="matrix-cell">
-            <small>Phương diện 1</small>
+            <small>Về mặt Kinh tế</small>
             <h3>Kinh tế</h3>
             <p>
-              Tồn tại cơ cấu kinh tế nhiều thành phần; đan xen phức tạp giữa
-              nhân tố XHCN mới đang hình thành và thành phần tư sản, tư nhân cũ.
+              Xã hội chưa thể ngay lập tức xây dựng được một nền kinh tế thuần nhất xã hội chủ nghĩa, mà bắt buộc phải chấp nhận sự tồn tại đan xen của cơ cấu kinh tế nhiều thành phần.
             </p>
           </div>
           <div className="matrix-cell">
-            <small>Phương diện 2</small>
+            <small>Về mặt Đạo đức</small>
             <h3>Đạo đức</h3>
             <p>
-              Còn tồn tại tư tưởng cá nhân chủ nghĩa, thói quen ích kỷ,
-              lối sống thực dụng và tư duy coi khinh lao động chân tay.
+              Trong đời sống xã hội vẫn còn bám lại những thói quen ích kỷ, lối sống thực dụng và đặc biệt là tâm lý coi khinh lao động chân tay vốn có từ chế độ cũ.
             </p>
           </div>
           <div className="matrix-cell">
-            <small>Phương diện 3</small>
+            <small>Về mặt Tinh thần</small>
             <h3>Tinh thần</h3>
             <p>
-              Đấu tranh gay gắt giữa hệ tư tưởng cách mạng tiên tiến với
-              tàn dư tâm lý, hủ tục phong kiến và tư sản chưa được quét sạch.
+              Đây là thời kỳ diễn ra cuộc đấu tranh gay gắt giữa hệ tư tưởng cách mạng tiên tiến mới với các tàn dư tâm lý, hủ tục phong kiến và tư sản chưa được quét sạch hoàn toàn.
             </p>
           </div>
         </div>
-      </section>
-
-      {/* ═══ SPLIT 50/50 — Hai ý nghĩa ═══ */}
-      <section className="page" data-bg="10" style={{ '--orb-x': '20%', '--orb-y': '55%', '--bg-x': '8%', '--bg-y': '6%' } as React.CSSProperties}>
-        <div ref={rv} className="rv">
-          <h2 className="page-title">Hai ý nghĩa lý luận và thực tiễn về Thời kỳ quá độ</h2>
-          <p className="page-lead">
-            Từ sự đúc kết của C. Mác và thực tiễn của V.I. Lênin tại nước Nga Xôviết,
-            thời kỳ quá độ được hiểu theo <span className="amber">hai nghĩa</span>:
-          </p>
-        </div>
-        <div ref={rv} className="rv split">
-          <div className="split-panel">
-            <h3>Nghĩa 1: Nước chưa trải qua TBCN phát triển cao</h3>
-            <ul className="bullet-list">
-              <li>
-                <strong>Lênin:</strong> "cần phải có một thời kỳ quá độ
-                <span className="amber"> khá lâu dài</span> từ CNTB lên CNXH".
-              </li>
-              <li>
-                Phương thức quá độ <strong>gián tiếp</strong>, vô cùng gian khổ, phức tạp.
-              </li>
-              <li>
-                <strong>"Những cơn đau đẻ kéo dài"</strong> — Nhiệm vụ kép:
-                vừa trấn áp giai cấp, vừa tự xây dựng toàn bộ cơ sở vật chất–kỹ thuật.
-              </li>
-            </ul>
-          </div>
-          <div className="split-panel">
-            <h3>Nghĩa 2: Nước đã trải qua TBCN phát triển cao</h3>
-            <ul className="bullet-list">
-              <li>
-                Vẫn <strong>bắt buộc trải qua thời kỳ quá độ nhất định</strong>,
-                dù đã có nền tảng LLSX đại công nghiệp hiện đại.
-              </li>
-              <li>
-                Cần thời gian cải biến toàn diện: QHSX tư hữu → công hữu,
-                thiết lập hệ tư tưởng mới, xây dựng nguyên tắc phân phối XHCN.
-              </li>
-            </ul>
-          </div>
+        <div ref={rv} className="rv quote" style={{ marginTop: '40px' }}>
+          <blockquote>
+            <strong>Tóm lại:</strong> Bản chất của Chủ nghĩa xã hội ở giai đoạn đầu chính là một thực thể mang tính giao thoa, nơi diễn ra cuộc đấu tranh quyết liệt giữa cái mới đang hình thành và cái cũ chưa tiêu vong. Việc nhìn nhận rõ các "vết chàm" này giúp chúng ta có một thế giới quan khoa học, tránh được sự nóng vội hay ảo tưởng trong thực tiễn xây dựng xã hội mới.
+          </blockquote>
         </div>
       </section>
 
